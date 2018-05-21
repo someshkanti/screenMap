@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<!-- <sidenav-disable-close-example></sidenav-disable-close-example> -->
+<sidenav-disable-close-example></sidenav-disable-close-example>
+<!-- this creates a google map on the page with the given lat/lng from -->
+<!-- the component as the initial center of the map: -->
+<agm-map [latitude]="lat" [longitude]="lng">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map> 
+<app-footer></app-footer>
+<router-outlet></router-outlet>
